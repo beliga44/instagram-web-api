@@ -1,10 +1,13 @@
 {
-  "name": "instagram-web-api",
-  "version": "2.2.2",
+  "name": "@inspigoid/instagram-web-api",
+  "version": "2.2.3",
   "description": "Instagram Private Web API client written in JS",
   "license": "MIT",
   "main": "lib/index.js",
-  "repository": "jlobos/instagram-web-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beliga44/instagram-web-api.git"
+  },
   "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com)",
   "scripts": {
     "lint": "xo",
@@ -69,5 +72,13 @@
     "lint-staged": "^10.2.11",
     "prettier": "^1.19.1",
     "xo": "^0.20.3"
+  },
+  "bugs": {
+    "url": "https://github.com/beliga44/instagram-web-api/issues"
+  },
+  "homepage": "https://github.com/beliga44/instagram-web-api#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
